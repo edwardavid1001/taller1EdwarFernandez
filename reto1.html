@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="js/reto1.js"></script>
+  <link rel="stylesheet" href="css\styles.css">
+  <link rel="stylesheet" href="css\inicio.css">
+  <title>Reto 1</title>
+
+</head>
+
+<body background="img/fondo.png">
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <h1 class="title">Palabra Ingresada</h1>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Volver</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <div class="form-container">    
+    <form id="palabraForm">
+      <label for="palabra">Ingresa una palabra:</label>
+      <input type="text" id="palabra" name="palabra"><br>
+      <br>
+      <div class="menu">
+        <button type="button" onclick="ejecutarOpcion(1)">Longitud de la palabra</button><br>
+        <button type="button" onclick="ejecutarOpcion(2)">Palabra en mayúsculas</button><br>
+        <button type="button" onclick="ejecutarOpcion(3)">Palabra en minúsculas</button><br>
+        <button type="button" onclick="ejecutarOpcion(4)">Primer carácter de la palabra</button>
+      </div>
+    </form>
+  </div>
+  </div>
+</body>
+</html>

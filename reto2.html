@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css\styles.css">
+  <link rel="stylesheet" href="css\inicio.css">
+  <title>Eventos JavaScript</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <h1 class="title">Eventos JavaScript</h1>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Volver</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<body>
+
+  
+
+  <table>
+    <tr>
+      <th>Evento</th>
+      <th>Descripción</th>
+      <th>Ejemplo</th>
+    </tr>
+    <tr>
+      <td>click</td>
+      <td>Se dispara cuando se hace clic en un elemento</td>
+      <td><button id="clickBtn">Haz clic aquí</button></td>
+    </tr>
+    <tr>
+      <td>change</td>
+      <td>Se dispara cuando el valor de un elemento cambia (por ejemplo, un campo de entrada)</td>
+      <td><input id="textInput" type="text" placeholder="Escribe algo"></td>
+    </tr>
+    <tr>
+      <td>mouseover</td>
+      <td>Se dispara cuando el puntero del mouse se mueve sobre un elemento</td>
+      <td><div id="mouseDiv" style="width: 100px; height: 100px; background-color: #ffcc00;"></div></td>
+    </tr>
+    <tr>
+      <td>keydown</td>
+      <td>Se dispara cuando una tecla se presiona en el teclado</td>
+      <td><input id="keyInput" type="text" placeholder="Presiona una tecla"></td>
+    </tr>
+    <tr>
+      <td>focus</td>
+      <td>Se dispara cuando un elemento recibe el foco (seleccionado o enfocado)</td>
+      <td><input id="focusInput" type="text" placeholder="Haz clic aquí"></td>
+    </tr>
+    <tr>
+      <td>blur</td>
+      <td>Se dispara cuando un elemento pierde el foco</td>
+      <td><input id="blurInput" type="text" placeholder="Escribe algo y haz clic en otro lugar"></td>
+    </tr>
+    <tr>
+      <td>dblclick</td>
+      <td>Se dispara cuando se hace doble clic en un elemento</td>
+      <td><button id="dblClickBtn">Haz doble clic aquí</button></td>
+    </tr>
+    <tr>
+      <td>dragstart</td>
+      <td>Se dispara cuando se inicia el arrastre de un elemento</td>
+      <td><div id="dragDiv" draggable="true" style="width: 100px; height: 100px; background-color: #60a1ec;"></div></td>
+    </tr>
+    <tr>
+      <td>scroll</td>
+      <td>Se dispara cuando se desplaza el contenido de un elemento</td>
+      <td><div id="scrollDiv" style="height: 100px; overflow: auto;"><p>Desplaza este contenido</p></div></td>
+    </tr>
+    <tr>
+      <td>resize</td>
+      <td>Se dispara cuando se cambia el tamaño de la ventana del navegador</td>
+      <td><p>Redimensiona la ventana del navegador</p></td>
+    </tr>
+    <tr>
+      <td>load</td>
+      <td>Se dispara cuando la página y sus recursos se han cargado completamente</td>
+      <td><p>La página se ha cargado</p></td>
+    </tr>
+  </table>
+
+  <script src="js/reto2.js"></script>
+</body>
+</html>

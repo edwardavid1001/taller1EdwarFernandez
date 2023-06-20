@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/reto6.css">
+  <link rel="stylesheet" type="text/css" href="css/inicio.css ">
+
+
+  <title>Calculadora de figuras geométricas</title>
+</head>
+<body background="img/fondo.png">
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <h1 class="title">Calculadora de figuras geométricas</h1>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Volver</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <!-- Círculo -->
+  <table class="xd">
+  <div class="figure-container left-container">
+    <img src="img/circulo.png" alt="Círculo">
+    <button id="btnCalcAreaCirculo">Calcular área del círculo</button>
+
+    <div id="modalAreaCirculo" class="modal">
+      <div class="modal-content">
+        <span class="cerrarModalAreaCirculo">&times;</span>
+        <h2>Calcular área del círculo</h2>
+        <form>
+          <label for="radioCirculo">Radio:</label>
+          <input type="number" id="radioCirculo"><br><br>
+          <button id="btnAreaCirculo">Calcular</button>
+        </form>
+        <div id="resultAreaCirculo" class="result"></div>
+      </div>
+    </div>
+
+    <button id="btnCalcPerimetroCirculo">Calcular perímetro del círculo</button>
+
+    <div id="modalPerimetroCirculo" class="modal">
+      <div class="modal-content">
+        <span class="cerrarModalPerimetroCirculo">&times;</span>
+        <h2>Calcular perímetro del círculo</h2>
+        <form>
+          <label for="radioCirculoP">Radio:</label>
+          <input type="number" id="radioCirculoP"><br><br>
+          <button id="btnPerimetroCirculo">Calcular</button>
+        </form>
+        <div id="resultPerimetroCirculo" class="result"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Triángulo -->
+  <div class="figure-container left-container ">
+    <img src="img/trian.png" alt="Triángulo">
+    <button id="btnCalcAreaTriangulo">Calcular área del triángulo</button>
+
+    <div id="modalAreaTriangulo" class="modal">
+      <div class="modal-content">
+        <span class="cerrarModalAreaTriangulo">&times;</span>
+        <h2>Calcular área del triángulo</h2>
+        <form>
+          <label for="baseTriangulo">Base:</label>
+          <input type="number" id="baseTriangulo"><br><br>
+          <label for="alturaTriangulo">Altura:</label>
+          <input type="number" id="alturaTriangulo"><br><br>
+          <button id="btnAreaTriangulo">Calcular</button>
+        </form>
+        <div id="resultAreaTriangulo" class="result"></div>
+      </div>
+    </div>
+
+    <button id="btnCalcPerimetroTriangulo">Calcular perímetro del triángulo</button>
+
+    <div id="modalPerimetroTriangulo" class="modal">
+      <div class="modal-content">
+        <span class="cerrarModalPerimetroTriangulo">&times;</span>
+        <h2>Calcular perímetro del triángulo</h2>
+        <form>
+          <label for="lado1Triangulo">Lado 1:</label>
+          <input type="number" id="lado1Triangulo"
+          ><br><br>
+          <label for="lado2Triangulo">Lado 2:</label>
+          <input type="number" id="lado2Triangulo"><br><br>
+          <label for="lado3Triangulo">Lado 3:</label>
+          <input type="number" id="lado3Triangulo"><br><br>
+          <button id="btnPerimetroTriangulo">Calcular</button>
+        </form>
+        <div id="resultPerimetroTriangulo" class="result"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rectángulo -->
+  <div class="figure-container right-container">
+    <img src="img/rect2.png" alt="Rectángulo">
+    <button id="btnCalcAreaRectangulo">Calcular área del rectángulo</button>
+
+    <div id="modalAreaRectangulo" class="modal">
+      <div class="modal-content">
+        <span class="cerrarModalAreaRectangulo">&times;</span>
+        <h2>Calcular área del rectángulo</h2>
+        <form>
+          <label for="baseRectangulo">Base:</label>
+          <input type="number" id="baseRectangulo"><br><br>
+          <label for="alturaRectangulo">Altura:</label>
+          <input type="number" id="alturaRectangulo"><br><br>
+          <button id="btnAreaRectangulo">Calcular</button>
+        </form>
+        <div id="resultAreaRectangulo" class="result"></div>
+      </div>
+    </div>
+
+    <button id="btnCalcPerimetroRectangulo">Calcular perímetro del rectángulo</button>
+
+    <div id="modalPerimetroRectangulo" class="modal">
+      <div class="modal-content">
+        <span class="cerrarModalPerimetroRectangulo">&times;</span>
+        <h2>Calcular perímetro del rectángulo</h2>
+        <form>
+          <label for="lado1Rectangulo">Lado 1:</label>
+          <input type="number" id="lado1Rectangulo"><br><br>
+          <label for="lado2Rectangulo">Lado 2:</label>
+          <input type="number" id="lado2Rectangulo"><br><br>
+          <button id="btnPerimetroRectangulo">Calcular</button>
+        </form>
+        <div id="resultPerimetroRectangulo" class="result"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cuadrado -->
+  <div class="figure-container right-container">
+    <img src="img/cuadrado.png" alt="Cuadrado">
+    <button id="btnCalcAreaCuadrado">Calcular área del cuadrado</button>
+
+    <div id="modalAreaCuadrado" class="modal">
+      <div class="modal-content">
+        <span class="cerrarModalAreaCuadrado">&times;</span>
+        <h2>Calcular área del cuadrado</h2>
+        <form>
+          <label for="ladoCuadrado">Lado:</label>
+          <input type="number" id="ladoCuadrado"><br><br>
+          <button id="btnAreaCuadrado">Calcular</button>
+        </form>
+        <div id="resultAreaCuadrado" class="result"></div>
+      </div>
+    </div>
+
+    <button id="btnCalcPerimetroCuadrado">Calcular perímetro del cuadrado</button>
+
+    <div id="modalPerimetroCuadrado" class="modal">
+      <div class="modal-content">
+        <span class="cerrarModalPerimetroCuadrado">&times;</span>
+        <h2>Calcular perímetro del cuadrado</h2>
+        <form>
+          <label for="ladoCuadradoP">Lado:</label>
+          <input type="number" id="ladoCuadradoP"><br><br>
+          <button id="btnPerimetroCuadrado">Calcular</button>
+        </form>
+        <div id="resultPerimetroCuadrado" class="result"></div>
+      </div>
+    </div>
+  </div>
+
+</table>
+  <script src="js/reto6.js"></script>
+</body>
+</html>

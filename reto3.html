@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor de Temperaturas</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <script src="js/reto3.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <h1 class="title">Conversor de Temperaturasa</h1>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Volver</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <label for="temperatura">Temperatura:</label>
+        <input type="number" id="temperatura" min="-273.15" step="0.01" style="width: 200px;"><br><br>
+
+        <label for="from">Convertir de:</label>
+        <select id="from" style="width: 200px;">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select><br><br>
+
+        <label for="to">Convertir a:</label>
+        <select id="to" style="width: 200px;">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+            <option value="kelvin">Kelvin</option>
+        </select><br><br>
+
+        <button onclick="convertirTemperatura()">Convertir</button>
+    </div>
+</body>
+</html>

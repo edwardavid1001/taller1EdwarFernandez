@@ -1,0 +1,59 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Comprobación de Instructor</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/inicio.css">
+
+        <script src="js/reto5.js"></script>
+    </head>
+    <body background="img/fondo.png">
+
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <h1 class="title">Comprobacion de Instructor</h1>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Volver</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+        
+
+    
+        <div class="form-container">
+            <label for="nombre">Nombre:</label>
+            <select id="nombre">
+                <option value="erick">Erick</option>
+                <option value="jennifer">Jennifer</option>
+                <option value="cristian">Cristian</option>
+                <option value="sandra">Sandra</option>
+            </select>
+    
+            <label for="apellido">Apellido:</label>
+            <select id="apellido">
+                <option value="granados">Granados</option>
+                <option value="fajardo">Fajardo</option>
+                <option value="buitrago">Buitrago</option>
+                <option value="rueda">Rueda</option>
+            </select>
+    
+            <label for="actividad">Actividad:</label>
+            <select id="actividad">
+                <option value="materia1">Materia 1</option>
+                <option value="materia2">Materia 2</option>
+                <option value="materia3">Materia 3</option>
+                <option value="materia4">Materia 4</option>
+            </select>
+    
+            <button onclick="comprobarInstructor()">Comprobar</button>
+        </div>
+    
+        <p id="resultado"></p>
+    </body>
+    </html>
+    
