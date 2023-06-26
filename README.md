@@ -4,4 +4,3 @@ buenas tardes adjunto taller numero 1 DOM de JavaScript en el que se pueden envi
  
  
 
- 
